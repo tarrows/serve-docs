@@ -11,3 +11,8 @@ sphinx-autobuild = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+qs = "sphinx-quickstart"
+html = "make html"
+pdf = "make latexpdf"
